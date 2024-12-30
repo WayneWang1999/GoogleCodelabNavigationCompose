@@ -60,8 +60,8 @@ import java.util.Locale
 
 @Composable
 fun OverviewScreen(
-    onClickSeeAllAccounts: () -> Unit = {},
-    onClickSeeAllBills: () -> Unit = {},
+    onClickSeeAllAccounts: () -> Unit={} ,
+    onClickSeeAllBills: () -> Unit={},
     onAccountClick: (String) -> Unit = {},
 ) {
     Column(
